@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "question1"
+version = "0.1.0"
+description = ""
+authors = ["SadineniAbhi <abhisadineni@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.36.0"
+openai = "^1.35.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
